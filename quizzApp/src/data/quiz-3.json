@@ -1,0 +1,107 @@
+{
+  "data": {
+    "title": "Entertainment: Video Games",
+    "questions": [
+      {
+        "question": "What is the punishment for playing Postal 2 in New Zealand?",
+        "answers": [
+          "Fine of $5,000",
+          "15 years in prison and a fine of $10,000",
+          "10 years in prison and a fine of $50,000",
+          "Nothing"
+        ],
+        "correct_answer": "10 years in prison and a fine of $50,000"
+      },
+      {
+        "question": "Along with Gabe Newell, who co-founded Valve?",
+        "answers": [
+          "Marc Laidlaw",
+          "Mike Harrington",
+          "Stephen Bahl",
+          "Robin Walker"
+        ],
+        "correct_answer": "Mike Harrington"
+      },
+      {
+        "question": "How many Star Spirits do you rescue in the Nintendo 64 video game &quot;Paper Mario&quot;?",
+        "answers": [
+          "10",
+          "5",
+          "12",
+          "7"
+        ],
+        "correct_answer": "7"
+      },
+      {
+        "question": "What was the FIRST Valve game to have VR?",
+        "answers": [
+          "Dota 2",
+          "Half-Life 2",
+          "The Lab",
+          "Destinations"
+        ],
+        "correct_answer": "The Lab"
+      },
+      {
+        "question": "In vanilla Minecraft, you can make armor out of all BUT which of the following?",
+        "answers": [
+          "Iron",
+          "Leather",
+          "Diamonds",
+          "Emeralds"
+        ],
+        "correct_answer": "Emeralds"
+      },
+      {
+        "question": "Which actor provided the voice for the main character&#039;s father in Fallout 3?",
+        "answers": [
+          "Liam Neeson",
+          "Robbie Coltrane",
+          "Kiefer Sutherland",
+          "Brendan Gleeson"
+        ],
+        "correct_answer": "Liam Neeson"
+      },
+      {
+        "question": "In &quot;Call Of Duty: Zombies&quot;, what does the game traditionally reward you for completing a boss round?",
+        "answers": [
+          "Max Ammo",
+          "Death Machine",
+          "A Pack-A-Punched gun",
+          "Monkey Bombs"
+        ],
+        "correct_answer": "Max Ammo"
+      },
+      {
+        "question": "In the 1980s, a service called Gameline allowed users to download games to what console?",
+        "answers": [
+          "Sega Genesis",
+          "ColecoVision",
+          "Atari 2600",
+          "Nintendo Entertainment System"
+        ],
+        "correct_answer": "Atari 2600"
+      },
+      {
+        "question": "What is the subtitle for Gran Turismo 3?",
+        "answers": [
+          "Championship",
+          "A-Spec",
+          "Nitro",
+          "Drive"
+        ],
+        "correct_answer": "A-Spec"
+      },
+      {
+        "question": "In Call of Duty: Modern Warfare 2, how many consecutive kills does it require to earn the &quot;Tactical Nuke&quot; killstreak?",
+        "answers": [
+          "20",
+          "30",
+          "25",
+          "35"
+        ],
+        "correct_answer": "25"
+      }
+    ]
+  }
+}

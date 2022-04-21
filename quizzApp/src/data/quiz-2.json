@@ -1,0 +1,107 @@
+{
+  "data": {
+    "title": "Mythology",
+    "questions": [
+      {
+        "question": "Who was the Roman god of fire?",
+        "answers": [
+          "Mercury",
+          "Vulcan",
+          "Apollo",
+          "Jupiter"
+        ],
+        "correct_answer": "Vulcan"
+      },
+      {
+        "question": "Neptune&#039;s greek name was...",
+        "answers": [
+          "Poseidon",
+          "Ares",
+          "Apollo",
+          "Zeus"
+        ],
+        "correct_answer": "Poseidon"
+      },
+      {
+        "question": "Which of these Roman gods doesn&#039;t have a counterpart in Greek mythology?",
+        "answers": [
+          "Vulcan",
+          "Mars",
+          "Janus",
+          "Juno"
+        ],
+        "correct_answer": "Janus"
+      },
+      {
+        "question": "What is the name of the Greek god of blacksmiths?",
+        "answers": [
+          "Vulcan",
+          "Dyntos",
+          "Hephaestus",
+          "Artagatus"
+        ],
+        "correct_answer": "Hephaestus"
+      },
+      {
+        "question": "Who is the god of war in Polynesian mythology?",
+        "answers": [
+          "Hina",
+          "&#039;Oro",
+          "M\\u0101ui",
+          "Kohara"
+        ],
+        "correct_answer": "&#039;Oro"
+      },
+      {
+        "question": "The Norse god Odin has two pet crows named &quot;Huginn&quot; and &quot;Muninn&quot;.  What do their names mean?",
+        "answers": [
+          "Power &amp; Peace",
+          "Thought &amp; Memory",
+          "War &amp; Learning",
+          "Sleeping &amp; Waking"
+        ],
+        "correct_answer": "Thought &amp; Memory"
+      },
+      {
+        "question": "According to Japanese folklore, what is the favorite food of the Kappa.",
+        "answers": [
+          "Cucumbers",
+          "Nasu",
+          "Kabocha",
+          "Soba"
+        ],
+        "correct_answer": "Cucumbers"
+      },
+      {
+        "question": "What is the name of the first human being in Norse mythology?",
+        "answers": [
+          "Asger",
+          "Ake",
+          "Asmund",
+          "Ask"
+        ],
+        "correct_answer": "Ask"
+      },
+      {
+        "question": "Hel was the daughter of which Norse Mythological figure?",
+        "answers": [
+          "Loki",
+          "Balder",
+          "Thor",
+          "Odin"
+        ],
+        "correct_answer": "Loki"
+      },
+      {
+        "question": "What animal did Queen Pasipahe sleep with before she gave birth to the Minotaur in Greek Mythology?",
+        "answers": [
+          "Bull",
+          "Horse",
+          "Pig",
+          "Ox"
+        ],
+        "correct_answer": "Bull"
+      }
+    ]
+  }
+}
