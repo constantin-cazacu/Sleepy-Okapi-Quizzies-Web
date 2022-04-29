@@ -1,7 +1,23 @@
-# Vue 3 + Vite
+## Quiz Application
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Task
 
-## Recommended IDE Setup
+1. Pick a frontend framework;
+2. Create a web app that has the following functions:
+- it shows a landing page with different quizzes;
+- the user can pick a quiz and play it;
+- after the game has ended, the user can see their score.
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+3. The app should have attractive UI;
+4. Consume [Quiz API](https://pure-caverns-82881.herokuapp.com) to fetch data from backend server.
+
+
+## Implementation
+Basic app with the following:
+- viewing a list of quizzes
+- viewing a single quiz
+- creating a user (and storing the ID in state)
+- accessing a quiz and playing as a user
+- submitting the answers to quizzes
+- showing the total score
+- attractive & responsive UI.
