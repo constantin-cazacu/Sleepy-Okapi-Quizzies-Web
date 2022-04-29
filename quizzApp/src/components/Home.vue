@@ -1,15 +1,26 @@
 <template>
-  <h>hello</h>
+  <div class="bg-purple-900">
+    <Navbar></Navbar>
+  </div>
+<!--  Content-->
+  <router-view />
 </template>
 
+<!--TODO style Home page, register, navbar
+    TODO Add quiz and complete quiz
+    -->
+
 <script>
-import Navbar from "./Navbar.vue";
+import Navbar from "./Navbar.vue"
 import QuizWindow from "./QuizWindow.vue";
 import Register from "./Register.vue";
 
 export default {
   name: "Home",
-  // components: {QuizWindow, Navbar}
+  // components: {
+  //   Navbar
+  // },
+  components: {QuizWindow, Navbar}
 }
 </script>
 

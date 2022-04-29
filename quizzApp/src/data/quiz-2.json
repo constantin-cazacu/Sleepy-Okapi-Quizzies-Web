@@ -3,14 +3,14 @@
     "title": "Mythology",
     "questions": [
       {
-        "question": "Who was the Roman god of fire?",
+        "question": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?",
         "answers": [
-          "Mercury",
-          "Vulcan",
-          "Apollo",
-          "Jupiter"
+          "A Dragon",
+          "A Horse",
+          "A Tiger",
+          "A Lion"
         ],
-        "correct_answer": "Vulcan"
+        "correct_answer": "A Horse"
       },
       {
         "question": "Neptune&#039;s greek name was...",
@@ -33,24 +33,24 @@
         "correct_answer": "Janus"
       },
       {
-        "question": "What is the name of the Greek god of blacksmiths?",
+        "question": "In Greek Mythology, who killed Achilles?",
         "answers": [
-          "Vulcan",
-          "Dyntos",
-          "Hephaestus",
-          "Artagatus"
+          "Hector",
+          "Pericles",
+          "Helen",
+          "Paris"
         ],
-        "correct_answer": "Hephaestus"
+        "correct_answer": "Paris"
       },
       {
-        "question": "Who is the god of war in Polynesian mythology?",
+        "question": "In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?",
         "answers": [
-          "Hina",
-          "&#039;Oro",
-          "M\\u0101ui",
-          "Kohara"
+          "Spider",
+          "Wild dog",
+          "Monkey",
+          "Crocodile"
         ],
-        "correct_answer": "&#039;Oro"
+        "correct_answer": "Spider"
       },
       {
         "question": "The Norse god Odin has two pet crows named &quot;Huginn&quot; and &quot;Muninn&quot;.  What do their names mean?",
@@ -73,16 +73,6 @@
         "correct_answer": "Cucumbers"
       },
       {
-        "question": "What is the name of the first human being in Norse mythology?",
-        "answers": [
-          "Asger",
-          "Ake",
-          "Asmund",
-          "Ask"
-        ],
-        "correct_answer": "Ask"
-      },
-      {
         "question": "Hel was the daughter of which Norse Mythological figure?",
         "answers": [
           "Loki",
@@ -101,6 +91,16 @@
           "Ox"
         ],
         "correct_answer": "Bull"
+      },
+      {
+        "question": "What is the name of the first human being in Norse mythology?",
+        "answers": [
+          "Asger",
+          "Ake",
+          "Asmund",
+          "Ask"
+        ],
+        "correct_answer": "Ask"
       }
     ]
   }

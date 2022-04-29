@@ -1,0 +1,107 @@
+{
+  "data": {
+    "title": "Entertainment: Cartoon & Animations",
+    "questions": [
+      {
+        "question": "What year was the Disney film &quot;A Goofy Movie&quot; released?",
+        "answers": [
+          "1999",
+          "2001",
+          "1997",
+          "1995"
+        ],
+        "correct_answer": "1995"
+      },
+      {
+        "question": "Which city did Anger berate for ruining pizza in &quot;Inside Out&quot;?",
+        "answers": [
+          "California",
+          "Washington",
+          "San Francisco",
+          "Minnesota"
+        ],
+        "correct_answer": "San Francisco"
+      },
+      {
+        "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
+        "answers": [
+          "Pinkie Pie",
+          "Maud Pie",
+          "Rose Marene",
+          "Rainbow Dash"
+        ],
+        "correct_answer": "Rose Marene"
+      },
+      {
+        "question": "Who is the &quot;dumb blonde&quot; character in Nickelodeon&#039;s &quot;The Loud House&quot;?",
+        "answers": [
+          "Leni",
+          "Luan",
+          "Luna",
+          "Lincoln"
+        ],
+        "correct_answer": "Leni"
+      },
+      {
+        "question": "In &quot;The Amazing World of Gumball&quot;, who is the principal of Elmore Junior High?",
+        "answers": [
+          "Principal Smal",
+          "Principal Brown",
+          "Principal Simeon",
+          "Principal Brawn"
+        ],
+        "correct_answer": "Principal Brown"
+      },
+      {
+        "question": "In &quot;My Little Pony: Friendship is Magic&quot;, which of these ponies represents the quality of honesty?",
+        "answers": [
+          "Twilight Sparkle",
+          "Pinkie Pie",
+          "Applejack",
+          "Rarity"
+        ],
+        "correct_answer": "Applejack"
+      },
+      {
+        "question": "\"How many episodes were in season five of Samurai Jack?",
+        "answers": [
+          "12",
+          "10",
+          "13",
+          "11"
+        ],
+        "correct_answer": "10"
+      },
+      {
+        "question": "Who voiced Finn in Adventure Time?",
+        "answers": [
+          "Nolan North",
+          "Tom Kenny",
+          "John DiMaggio",
+          "Jeremy Shada"
+        ],
+        "correct_answer": "Jeremy Shada"
+      },
+      {
+        "question": "Nickelodeon is owned by what parent company?",
+        "answers": [
+          "Viacom",
+          "ABC",
+          "CBS",
+          "FOX"
+        ],
+        "correct_answer": "Viacom"
+      },
+      {
+        "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters&#039; fictional gang?",
+        "answers": [
+          "The Trash Troupe",
+          "The Rotten Posse",
+          "The Scrapyard Seven",
+          "The Junkyard Gang"
+        ],
+        "correct_answer": "The Junkyard Gang"
+      }
+    ]
+  }
+}

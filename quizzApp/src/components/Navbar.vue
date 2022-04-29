@@ -1,74 +1,63 @@
 <template>
-  <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
-    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="relative flex items-center justify-between h-16">
-        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-          <!-- Mobile menu button-->
-          <DisclosureButton class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-            <span class="sr-only">Open main menu</span>
-            <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-            <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
-          </DisclosureButton>
-        </div>
-        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex-shrink-0 flex items-center">
-            <img class="block lg:hidden h-8 w-auto" src="../assets/quizhut_logomark.svg" alt="Quizhut" />
-            <img class="hidden lg:block h-8 w-auto" src="../assets/quizhut_logotype.svg" alt="Quizhut" />
-          </div>
-          <div class="hidden sm:block sm:ml-6">
-            <div class="flex space-x-4">
-              <a v-for="item in navigation" :key="item.component" :href="item.path" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.component }}</a>
+  <nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+  >
+    <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+    >
+      <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+      >
+        <router-link :to="{name: 'HeroPage'}">
+          <div
+              class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          ><img class="h-8 w-auto" src="../assets/quizhut_logotype.svg"/></div>
+        </router-link>
+        <button
+            class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button" v-on:click="toggleNavbar()">
+          <img class="h-8 w-auto" src="../assets/menu.svg" />
+        </button>
+      </div>
+      <div
+          class="lg:flex flex-grow items-center lg:bg-transparent lg:shadow-none"
+          v-bind:class="{'hidden': !showMenu, 'block': showMenu}"
+      >
+        <ul class="flex flex-col lg:flex-row list-none mr-auto">
+          <li>
+            <div
+                class="flex items-center py-3 px-4 hover:bg-indigo-700 rounded hover:text-indigo-200 transition duration-200">
+              <router-link :to="{name: 'all_quizzes'}">
+                <span class="text-white px-1" @click="getQuizzes">Quizzes</span>
+              </router-link>
             </div>
-          </div>
-        </div>
+          </li>
+          <li>
+            <div
+                class="flex items-center py-3 px-4 hover:bg-indigo-700 rounded hover:text-indigo-200 transition duration-200">
+              <router-link :to="{name: 'Register'}">
+                <span class="text-white px-1">Register</span>
+              </router-link>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
-    <DisclosurePanel class="sm:hidden">
-      <div class="px-2 pt-2 pb-3 space-y-1">
-        <DisclosureButton v-for="item in navigation" :key="item.component" as="router-link" :href="item.path" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.component }}</DisclosureButton>
-      </div>
-    </DisclosurePanel>
-  </Disclosure>
+  </nav>
 </template>
-
 <script>
-import Register from "./Register.vue";
-
 export default {
-  name: "Navbar.vue",
-  components: {
-    Disclosure,
-    DisclosureButton,
-    DisclosurePanel,
-    Menu,
-    MenuButton,
-    MenuItem,
-    MenuItems,
-    BellIcon,
-    MenuIcon,
-    XIcon,
-  },
-  setup() {
+  data() {
     return {
-      navigation,
+      showMenu: false
     }
   },
+  methods: {
+    toggleNavbar: function () {
+      this.showMenu = !this.showMenu;
+    },
+    async getQuizzes() {
+    }
+  }
 }
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
-import Home from "./Home.vue";
-
-const navigation = [
-  // { name: 'Home', href: '#', current: true },
-  // { name: 'Register', href: '#', current: false },
-  { component: Home, path: '/', current: false},
-  // { name: 'About', href: '#', current: false },
-  { component: Register, path: '/register', current: false},
-
-]
-
 </script>
-
-<style scoped>
-
-</style>

@@ -7,9 +7,5 @@ import Register from './components/Register.vue'
 
 <template>
     <router-view />
-
-  <!--  <Navbar />-->
-<!--  <QuizWindow />-->
-<!--  <Register />-->
 </template>
 

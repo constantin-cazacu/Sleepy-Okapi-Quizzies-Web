@@ -1,46 +1,46 @@
 <template>
-  <div class="bg-[url('https://wallpapercave.com/wp/wp3913041.jpg')]">
-    <div class="py-72">
+  <div class="bg-cover bg-center ... min-h-screen" style="background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1005300/66cdbdfdd198c9d931868f5c456b6750e9e3f0c1.jpg')">
+  <div class="py-72">
       <div class="container mx-auto px-4 h-full">
         <div class="flex content-center items-center justify-center h-full">
           <div class="w-full lg:w-4/12 px-4">
             <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 border-0"
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg border-0"
             >
               <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-                <div class="text-2xl text-gray-500 text-center mb-3 font-bold">
+                <div class="text-2xl text-white text-center mb-3 font-bold">
                   <small>Player Registration</small>
                 </div>
                 <form>
                   <div class="relative w-full mb-3">
                     <label
-                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        class="block uppercase text-white text-xs font-bold mb-2"
                         for="grid-password"
                     >Name</label
                     ><input
                       type="name"
                       v-model="form.name"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                      class="border-0 px-3 py-3 placeholder-gray-200 text-white bg-slate-700 rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Name"
                       style="transition: all 0.15s ease 0s;"
                   />
                   </div>
                   <div class="relative w-full mb-3">
                     <label
-                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        class="block uppercase text-white text-xs font-bold mb-2"
                         for="grid-password"
                     >Surname</label
                     ><input
                       type="surname"
                       v-model="form.surname"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                      class="border-0 px-3 py-3 placeholder-gray-200 text-white bg-slate-700 rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Surname"
                       style="transition: all 0.15s ease 0s;"
                   />
                   </div>
                   <div class="text-center mt-6">
                     <button
-                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
+                        class="bg-indigo-600 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
                         type="button"
                         @click="register"
                         style="transition: all 0.15s ease 0s;"
@@ -74,7 +74,9 @@ export default {
   },
   methods: {
     register() {
-      this.$store.dispatch('register', this.form)
+      this.$store.dispatch('register', this.form).then(() => {
+        this.$router.push({name:'all_quizzes'})
+      })
     }
   }
 }

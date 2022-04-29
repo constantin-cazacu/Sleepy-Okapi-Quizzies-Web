@@ -3,74 +3,74 @@
     "title": "General Knowledge",
     "questions": [
       {
-        "question": "Who is a co-founder of music streaming service Spotify?",
+        "question": "Scotch whisky and Drambuie make up which cocktail?",
         "answers": [
-          "Sean Parker",
-          "Daniel Ek",
-          "Michael Breidenbruecker",
-          "Felix Miller"
+          "Manhattan",
+          "Sex on the Beach",
+          "Rusty Nail",
+          "Screwdriver"
         ],
-        "correct_answer": "Daniel Ek"
+        "correct_answer": "Rusty Nail"
       },
       {
-        "question": "What is the romanized Russian word for &quot;winter&quot;?",
+        "question": "Which of these companies does NOT manufacture automobiles?",
         "answers": [
-          "Osen&#039;",
-          "Leto",
-          "Zima",
-          "Vesna"
+          "GMC",
+          "Ducati",
+          "Nissan",
+          "Fiat"
         ],
-        "correct_answer": "Zima"
+        "correct_answer": "Ducati"
       },
       {
-        "question": "The term &quot;scientist&quot; was coined in which year?",
+        "question": "What did the Spanish autonomous community of Catalonia ban in 2010, that took effect in 2012?",
         "answers": [
-          "1796",
-          "1942",
-          "1833",
-          "1933"
+          "Flamenco",
+          "Bullfighting",
+          "Fiestas",
+          "Mariachi"
         ],
-        "correct_answer": "1833"
+        "correct_answer": "Bullfighting"
       },
       {
-        "question": "Amsterdam Centraal station is twinned with what station?",
+        "question": "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?",
         "answers": [
-          "Frankfurt (Main) Hauptbahnhof",
-          "Brussels Midi",
-          "Paris Gare du Nord",
-          "London Liverpool Street"
+          "Ferrari",
+          "Fiat",
+          "Alfa Romeo",
+          "Maserati"
         ],
-        "correct_answer": "London Liverpool Street"
+        "correct_answer": "Fiat"
       },
       {
-        "question": "Which slogan did the fast food company, McDonald&#039;s, use before their &quot;I&#039;m Lovin&#039; It&quot; slogan?",
+        "question": "When was Nintendo founded?",
         "answers": [
-          "We Love to See You Smile",
-          "Making People Happy Through Food",
-          "Have It Your Way",
-          "Why Pay More!?"
+          "October 19th, 1891",
+          "March 4th, 1887",
+          "September 23rd, 1889",
+          "December 27th, 1894"
         ],
-        "correct_answer": "We Love to See You Smile"
+        "correct_answer": "September 23rd, 1889"
       },
       {
-        "question": "Which item of clothing is usually worn by a Scotsman at a wedding?",
+        "question": "What is the Portuguese word for &quot;Brazil&quot;?",
         "answers": [
-          "Skirt",
-          "Dress",
-          "Rhobes",
-          "Kilt"
+          "Brasil",
+          "Brazil",
+          "Brasilia",
+          "Bras&iacute;l"
         ],
-        "correct_answer": "Kilt"
+        "correct_answer": "Brasil"
       },
       {
-        "question": "Which of these words means &quot;idle spectator&quot;?",
+        "question": "The Fields Medal, one of the most sought after awards in mathematics, is awarded every how many years?",
         "answers": [
-          "Jentacular",
-          "Gossypiboma",
-          "Gongoozler",
-          "Meupareunia"
+          "5",
+          "3",
+          "4",
+          "6"
         ],
-        "correct_answer": "Gongoozler"
+        "correct_answer": "4"
       },
       {
         "question": "What is the currency of Poland?",
@@ -83,14 +83,14 @@
         "correct_answer": "Z\\u0142oty"
       },
       {
-        "question": "Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?",
+        "question": "The Mexican Beer &quot;Corona&quot; is what type of beer?",
         "answers": [
-          "Colt 9mm",
-          "M3",
-          "Thompson",
-          "MAC-10"
+          "India Pale Ale",
+          "Pilfsner",
+          "Baltic Porter",
+          "Pale Lager"
         ],
-        "correct_answer": "M3"
+        "correct_answer": "Pale Lager"
       },
       {
         "question": "Frank Lloyd Wright was the architect behind what famous building?",
